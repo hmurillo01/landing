@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
     font-size: 24px;
+    background-color: #fafbfc;
+     font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .header{
@@ -20,9 +25,11 @@ body{
   
 }
 .navigation__link{
+  display: inline;
     text-decoration: none;
     color: #fff;
     font-size: 32px;
+    margin: 50px;
     
 }
 .navigation__link:hover{
@@ -50,6 +57,33 @@ body{
 .logo {
 
     width: 80px
+}
+
+.titulo2{
+ margin: 81px 148px 63px;
+ color: #A6CCF3;
+ font-size: 50px;
+
+ 
+ 
+}
+
+.slidein {
+  animation-duration: 5s;
+  animation-name: slidein;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 

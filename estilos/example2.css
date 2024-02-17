@@ -1,0 +1,47 @@
+/* Estilos generales para el botón */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  
+}
+
+.button:hover{
+  background-color: aqua;
+}
+/* Estilos para el texto dentro del botón */
+.button__text {
+  color: white; /* Color del texto */
+}
+
+.button__text:hover {
+ 
+  color: #98e718    /* Fondo verde */
+}
+
+
+/* Modificador para el botón grande */
+.button--large {
+  font-size: 20px; /* Tamaño de fuente más grande */
+  padding: 15px 30px; /* Mayor padding */
+}
+
+.button--large:hover{
+  color: blueviolet;
+}
+
+
+/* Modificador para el botón principal */
+.button--primary {
+  background-color: blue; /* Fondo azul */
+}
+
+
+/* Modificador para el botón secundario */
+.button--secondary {
+  background-color: darkgray; /* Fondo gris oscuro */
+}

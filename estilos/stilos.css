@@ -44,7 +44,7 @@ body{
     height: 64px;
     background-color: #A6CCF3; 
     text-align: center;
-   
+  
 }
 
 .parrafo {
@@ -59,32 +59,60 @@ body{
     width: 80px
 }
 
+.contenido__saludo{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ height: calc(100vh - 90px);
+}
+
+
+.saludo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .titulo2{
  margin: 81px 148px 63px;
  color: #A6CCF3;
  font-size: 50px;
-
- 
- 
-}
-
-.slidein {
-  animation-duration: 5s;
-  animation-name: slidein;
+ text-align: center;
 
 }
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+.botonera{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
 }
+
+.button{
+  text-align: center;
+  padding: 10px 10px ;
+  border: none;
+  border-radius: 8px;
+  background-color: #A6CCF3;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.button--color{
+  background-color:#A6CCF3 ;
+}
+
+.button--alinear{
+  padding-top: 80px;
+}
+
+
+
+
+
 
 
 
